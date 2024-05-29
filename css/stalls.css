@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005689;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 80px;
+    width: 125px;
+    border-radius: 30px;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 45px;
+}
+
+.nav-links a:hover {
+    background-color: white ;
+    color: #005689;
+    padding: 15px;
+    font-weight: bold;
+}
+#opening{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 40px;
+}
+#maestro{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #005689;
+    color: white;
+    font-size: 50px;
+}
+.mfh{
+    margin-left: 5px;
+    display: inline-block;
+    background-color: hsl(202, 100%, 36%);
+}
+.mfh img{
+    margin-top: 10px;
+    height: 350px;
+    width: 405px;
+    padding-right: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+.desc {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+.desc p{
+    text-align: justify;
+    font-family: cursive;
+    font-size: 30px;
+}
+#thechef{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #005689;
+    color: white;
+    font-size: 50px;
+}
+.tcf{
+    margin-left: 5px;
+    display: inline-block;
+    background-color: #0074b7;
+}
+.tcf img{
+    margin-top: 10px;
+    height: 400px;
+    width: 600px;
+    padding-right: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+#bambams{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #005689;
+    color: white;
+    font-size: 50px;
+}
+.bbk{
+    margin-left: 5px;
+    display: inline-block;
+    background-color: #0074b7;
+}
+.bbk img{
+    margin-top: 10px;
+    height: 400px;
+    width: 600px;
+    padding-right: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+#takamyaki{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #005689;
+    color: white;
+    font-size: 50px;
+}
+#macha{
+    margin-top: 10px;
+    text-align: center;
+    background-color: #005689;
+    color: white;
+    font-size: 50px;
+}
+.tmb{
+    margin-left: 5px;
+    display: inline-block;
+    background-color: #0074b7;
+}
+.tmb img{
+    margin-top: 10px;
+    height: 400px;
+    width: 600px;
+    padding-right: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+#bukotwizt{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #005689;
+    color: white;
+    font-size: 50px;
+}
+.bt{
+    margin-left: 5px;
+    display: inline-block;
+    background-color: #0074b7;
+}
+.bt img{
+    margin-top: 10px;
+    height: 400px;
+    width: 600px;
+    padding-right: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+#brosinasal{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #005689;
+    color: white;
+    font-size: 50px;
+}
+.bi{
+    margin-left: 5px;
+    display: inline-block;
+    background-color: hsl(202, 100%, 36%);
+}
+.bi img{
+    margin-top: 10px;
+    height: 350px;
+    width: 405px;
+    padding-right: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+#waffnchip{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #005689;
+    color: white;
+    font-size: 50px;
+}
+.wnc{
+    margin-left: 5px;
+    display: inline-block;
+    background-color: #0074b7;
+}
+.wnc img{
+    margin-top: 10px;
+    height: 400px;
+    width: 600px;
+    padding-right: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+#nykitchen{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #005689;
+    color: white;
+    font-size: 50px;
+}
+.nyk{
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    background-color: #0074b7;
+}
+.nyk img{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+    border-radius: 50px;
+    border-color: red;
+}
+#mmfoodtrip{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #005689;
+    color: white;
+    font-size: 50px;
+}
+.mmf{
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    background-color: #0074b7;
+}
+.mmf img{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+    border-radius: 50px;
+    border-color: red;
+}
+#happytummy{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #005689;
+    color: white;
+    font-size: 50px;
+}
+.ht{
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    background-color: #0074b7;
+}
+.ht img{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+    border-radius: 50px;
+    border-color: red;
+    
+}
+footer {
+    background-color: #005689;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 20px;
+    min-width: 250px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 15px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: white;
+    text-decoration: none;
+
+  }
+  
+  .footer-section ul li a:hover {
+    background-color: white;
+    color: #005689;
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  .footer-section p {
+    margin: 5px 0;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+  }
+  
+  .footer-section .fa {
+    margin-right: 10px;
+  }

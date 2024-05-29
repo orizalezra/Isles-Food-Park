@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005689;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 80px;
+    width: 125px;
+    border-radius: 30px;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 45px;
+}
+
+.nav-links a:hover {
+    background-color: white ;
+    color: #005689;
+    padding: 15px;
+    font-weight: bold;
+}
+main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+    color: white;
+}
+.container{
+    margin: 0 40px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container h1{
+    color: #005689  ;
+}
+.container .tab{
+    position: relative;
+    background:#0369a4;
+    padding: 0 20px 20px;
+    box-shadow: 0 15px 25px #017dc5;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.container .tab input{
+    appearance: none;
+
+}
+.container .tab label{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.container .tab label::after{
+    content: '+';
+    position: absolute;
+    right: 20px;
+    font-size: 2em;
+    color: #017dc5;
+    transition: transform 1s;
+}
+.container .tab:hover label::after{
+    color: white;
+}
+.container .tab input:checked ~ label::after{
+    transform: rotate(135deg);
+}
+.container .tab label h2{
+    width: 40px;
+    height: 40px;
+    background: #229ae0;
+    justify-content: center;
+    align-items: center;
+    color: #005689;
+    font-size: 1.50em;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+}
+.container .tab label h3{
+    position: relative;
+    font-weight: 500;
+    color: white;
+    z-index: 15;
+}
+.container .tab .content{
+    max-height: 0;
+    transition: 1s;
+    overflow: hidden;
+}
+.container .tab input:checked ~ .content{
+    max-height: 100vh;
+}
+.container .tab .content p{
+    position: relative;
+    padding: 10px 0;
+    color: white;
+    z-index: 10;
+}
+footer {
+    background-color: #005689;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 20px;
+    min-width: 250px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 15px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: white;
+    text-decoration: none;
+
+  }
+  
+  .footer-section ul li a:hover {
+    background-color: white;
+    color: #005689;
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  .footer-section p {
+    margin: 5px 0;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+  }
+  
+  .footer-section .fa {
+    margin-right: 10px;
+  }
